@@ -136,7 +136,7 @@ const Tabs = () => {
                     ),
                     tabBarButton: (props) => (
                         <TabBarCustomButton
-                            {...props} onPress={console.log('hey')}
+                            {...props}
                         />
                     )
                 }}
