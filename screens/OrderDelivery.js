@@ -13,7 +13,13 @@ import { COLORS, FONTS, icons, SIZES, GOOGLE_API_KEY } from "../constants";
 const OrderDelivery = () => {
 
     function renderMap() {
+        return (
+            <View style={{ flex: 1 }}>
+                <MapView style={{ flex: 1 }}>
 
+                </MapView>
+            </View>
+        );
     }
 
     return (
@@ -25,5 +31,3 @@ const OrderDelivery = () => {
 };
 
 export default OrderDelivery;
-
-const styles = StyleSheet.create({});
