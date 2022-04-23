@@ -1,10 +1,25 @@
-import { StyleSheet, Text, View } from 'react-native';
-import React from 'react';
+import React from "react";
+import {
+    View,
+    Text,
+    Image,
+    TouchableOpacity
+} from "react-native";
+import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
+import MapViewDirections from "react-native-maps-directions";
+
+import { COLORS, FONTS, icons, SIZES, GOOGLE_API_KEY } from "../constants";
 
 const OrderDelivery = () => {
+
+    function renderMap() {
+
+    }
+
     return (
-        <View>
-            <Text>OrderDelivery</Text>
+        <View style={{ flex: 1 }}>
+            {renderMap()}
+
         </View>
     );
 };
